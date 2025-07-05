@@ -17,7 +17,7 @@ export function NewTodoform({onSubmit}) { // Destructure the props to get the ad
   } 
      return (
     
-      <form onSubmit={handleSubmit} className="form-item-form">
+      <form onSubmit={handleSubmit} className="new-item-form">
         <div className="form-row">
           <label htmlFor="item">New Item</label>
            <input value={newItem}
